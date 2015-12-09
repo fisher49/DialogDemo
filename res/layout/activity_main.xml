@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/notifyBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="提示框" />
+
+    <Button
+        android:id="@+id/listBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="列表框" />
+
+    <Button
+        android:id="@+id/optionBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="单选框" />
+
+    <Button
+        android:id="@+id/multiBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="多选框" />
+
+    <Button
+        android:id="@+id/proccessBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="进度框" />
+
+    <Button
+        android:id="@+id/statusBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="状态栏通知" />
+    
+    <Button
+        android:id="@+id/sendactivityBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ButtonClick"
+        android:text="常用控件串口1" />
+
+    <Button
+        android:id="@+id/PaintBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="简单画板" 
+        android:onClick="ButtonClick"/>
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/fragdialogBTNID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fragdialog" 
+            android:onClick="ButtonClick"/>
+
+        <Button
+            android:id="@+id/ninepatchBTNID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9patch"
+            android:onClick="ButtonClick" />
+
+    </LinearLayout>
+    
+    <FrameLayout android:id="@+id/fragmentlogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    
+    <!-- 
+    <fragment android:id="@+id/fragmentstatic" 
+        android:name="com.example.dialog.ContentFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    -->
+	
+
+
+</LinearLayout>

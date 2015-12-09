@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="常用控件测试窗口1" 
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/notifyBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭" 
+        android:onClick="closeactivity2"/>
+
+    <Button
+        android:id="@+id/getimgBTNID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取网络图片" 
+        android:onClick="getImageFromNet"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    
+    <com.loopj.android.image.SmartImageView 
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="news"/>
+
+</LinearLayout>
